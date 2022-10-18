@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.UnitTests\\TargetSettingTool.API.UnitTests.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj",
+        "projectName": "TargetSettingTool.Api",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj"
+              },
+              "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj"
+              },
+              "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj"
+              },
+              "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj",
+        "projectName": "TargetSettingTool.Application",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Domain\\TargetSettingTool.Domain.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Domain\\TargetSettingTool.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Domain\\TargetSettingTool.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Domain\\TargetSettingTool.Domain.csproj",
+        "projectName": "TargetSettingTool.Domain",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Domain\\TargetSettingTool.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj",
+        "projectName": "TargetSettingTool.Identity",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj",
+        "projectName": "TargetSettingTool.Infrastructure",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj",
+        "projectName": "TargetSettingTool.Persistence",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.UnitTests\\TargetSettingTool.API.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.UnitTests\\TargetSettingTool.API.UnitTests.csproj",
+        "projectName": "TargetSettingTool.API.UnitTests",
+        "projectPath": "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.UnitTests\\TargetSettingTool.API.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj": {
+                "projectPath": "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

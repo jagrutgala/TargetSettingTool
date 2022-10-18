@@ -1,0 +1,194 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "TargetSettingTool.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TargetSettingTool.Application": "1.0.0",
+          "TargetSettingTool.Identity": "1.0.0",
+          "TargetSettingTool.Infrastructure": "1.0.0",
+          "TargetSettingTool.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Api.dll": {}
+        }
+      },
+      "TargetSettingTool.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TargetSettingTool.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Application.dll": {}
+        }
+      },
+      "TargetSettingTool.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Domain.dll": {}
+        }
+      },
+      "TargetSettingTool.Identity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TargetSettingTool.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Identity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Identity.dll": {}
+        }
+      },
+      "TargetSettingTool.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TargetSettingTool.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Infrastructure.dll": {}
+        }
+      },
+      "TargetSettingTool.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TargetSettingTool.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TargetSettingTool.Api/1.0.0": {
+      "type": "project",
+      "path": "../../src/API/TargetSettingTool.Api/TargetSettingTool.Api.csproj",
+      "msbuildProject": "../../src/API/TargetSettingTool.Api/TargetSettingTool.Api.csproj"
+    },
+    "TargetSettingTool.Application/1.0.0": {
+      "type": "project",
+      "path": "../../src/Core/TargetSettingTool.Application/TargetSettingTool.Application.csproj",
+      "msbuildProject": "../../src/Core/TargetSettingTool.Application/TargetSettingTool.Application.csproj"
+    },
+    "TargetSettingTool.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../src/Core/TargetSettingTool.Domain/TargetSettingTool.Domain.csproj",
+      "msbuildProject": "../../src/Core/TargetSettingTool.Domain/TargetSettingTool.Domain.csproj"
+    },
+    "TargetSettingTool.Identity/1.0.0": {
+      "type": "project",
+      "path": "../../src/Infrastructure/TargetSettingTool.Identity/TargetSettingTool.Identity.csproj",
+      "msbuildProject": "../../src/Infrastructure/TargetSettingTool.Identity/TargetSettingTool.Identity.csproj"
+    },
+    "TargetSettingTool.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../src/Infrastructure/TargetSettingTool.Infrastructure/TargetSettingTool.Infrastructure.csproj",
+      "msbuildProject": "../../src/Infrastructure/TargetSettingTool.Infrastructure/TargetSettingTool.Infrastructure.csproj"
+    },
+    "TargetSettingTool.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../../src/Infrastructure/TargetSettingTool.Persistence/TargetSettingTool.Persistence.csproj",
+      "msbuildProject": "../../src/Infrastructure/TargetSettingTool.Persistence/TargetSettingTool.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "TargetSettingTool.Api >= 1.0.0",
+      "TargetSettingTool.Application >= 1.0.0",
+      "TargetSettingTool.Identity >= 1.0.0",
+      "TargetSettingTool.Infrastructure >= 1.0.0",
+      "TargetSettingTool.Persistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.IntegrationTests\\TargetSettingTool.API.IntegrationTests.csproj",
+      "projectName": "TargetSettingTool.API.IntegrationTests",
+      "projectPath": "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.IntegrationTests\\TargetSettingTool.API.IntegrationTests.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\TargetSettingTool\\test\\TargetSettingTool.API.IntegrationTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj": {
+              "projectPath": "D:\\Projects\\TargetSettingTool\\src\\API\\TargetSettingTool.Api\\TargetSettingTool.Api.csproj"
+            },
+            "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+              "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj"
+            },
+            "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj": {
+              "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Identity\\TargetSettingTool.Identity.csproj"
+            },
+            "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj": {
+              "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj"
+            },
+            "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj": {
+              "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Persistence\\TargetSettingTool.Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "TargetSettingTool.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TargetSettingTool.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Application.dll": {}
+        }
+      },
+      "TargetSettingTool.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TargetSettingTool.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TargetSettingTool.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TargetSettingTool.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/TargetSettingTool.Application/TargetSettingTool.Application.csproj",
+      "msbuildProject": "../../Core/TargetSettingTool.Application/TargetSettingTool.Application.csproj"
+    },
+    "TargetSettingTool.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/TargetSettingTool.Domain/TargetSettingTool.Domain.csproj",
+      "msbuildProject": "../../Core/TargetSettingTool.Domain/TargetSettingTool.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "TargetSettingTool.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj",
+      "projectName": "TargetSettingTool.Infrastructure",
+      "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\TargetSettingTool.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\TargetSettingTool\\src\\Infrastructure\\TargetSettingTool.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj": {
+              "projectPath": "D:\\Projects\\TargetSettingTool\\src\\Core\\TargetSettingTool.Application\\TargetSettingTool.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

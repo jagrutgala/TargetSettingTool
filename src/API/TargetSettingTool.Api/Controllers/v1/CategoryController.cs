@@ -34,6 +34,7 @@ namespace TargetSettingTool.Api.Controllers.v1
         public async Task<ActionResult> GetAllCategories()
         {
             _logger.LogInformation("GetAllCategories Initiated");
+            _logger.LogInformation("GetAllCategories Initiated1");
             var dtos = await _mediator.Send(new GetCategoriesListQuery());
             _logger.LogInformation("GetAllCategories Completed");
             return Ok(dtos);
